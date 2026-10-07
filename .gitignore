@@ -1,0 +1,7 @@
+*.out
+bigfile.txt
+received_files/
+client_4808_before_sendfile.c
+server_4808_before_sendfile.c
+server_4808_sendfile_working.c
+server_4808_backup.c
