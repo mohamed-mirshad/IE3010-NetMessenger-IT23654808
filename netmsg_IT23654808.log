@@ -1,0 +1,10 @@
+[2026-10-07 06:31:10] Client connected
+[2026-10-07 06:31:18] Command: \REGISTER mirshad
+[2026-10-07 06:31:23] Command: LIST
+[2026-10-07 06:31:31] Command: BCAST FinalTest
+[2026-10-07 06:31:36] Client disconnected
+[2026-10-07 06:34:19] Client connected
+[2026-10-07 06:34:30] Command: REGISTER mirshad
+[2026-10-07 06:34:33] Command: LIST
+[2026-10-07 06:34:39] Command: BCAST FinalTest
+[2026-10-07 06:34:43] Client disconnected
