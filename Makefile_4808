@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -pthread
+
+all: server client
+
+server:
+	$(CC) $(CFLAGS) server_4808.c -o server_4808.out
+
+client:
+	$(CC) $(CFLAGS) client_4808.c -o client_4808.out
+
+clean:
+	rm -f server_4808.out client_4808.out
