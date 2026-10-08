@@ -268,7 +268,7 @@ void *handle_client(void *arg)
         /*
          * Add received bytes to persistent input buffer.
          */
-        if (input_length + bytes_received >=
+        if (((size_t)(input_length + bytes_received)) >=
             sizeof(input_buffer))
         {
             printf("Input buffer full.\n");
@@ -311,7 +311,7 @@ void *handle_client(void *arg)
 
 
             /* Command too long */
-            if (command_length >= sizeof(buffer))
+            if ((size_t)command_length >= sizeof(buffer))
             {
                 printf("Command too long.\n");
 
@@ -486,7 +486,7 @@ void *handle_client(void *arg)
             {
                 known_command = 1;
                 char message[1024];
-                char response[1024];
+                char response[2048];
 
                 int i;
 
@@ -541,7 +541,7 @@ void *handle_client(void *arg)
                 known_command = 1;
                 char target[USERNAME_LEN];
                 char message[1024];
-                char response[1024];
+                char response[2048];
 
                 int i;
                 int target_found = 0;
@@ -1033,9 +1033,9 @@ else
         long remaining = file_size - discarded;
 
         int to_receive =
-            remaining < sizeof(discard_buffer)
+            remaining < (long)sizeof(discard_buffer)
             ? (int)remaining
-            : sizeof(discard_buffer);
+            : (int)sizeof(discard_buffer);
 
         int received =
             recv(client_fd,
@@ -1321,7 +1321,7 @@ else
  		known_command = 1;
                 char room_name[ROOM_NAME_LEN];
                 char message[1024];
-                char response[1024];
+                char response[2048];
 
                 int room_index;
                 int i;

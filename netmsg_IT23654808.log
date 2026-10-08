@@ -1,10 +1,70 @@
-[2026-10-07 06:31:10] Client connected
-[2026-10-07 06:31:18] Command: \REGISTER mirshad
-[2026-10-07 06:31:23] Command: LIST
-[2026-10-07 06:31:31] Command: BCAST FinalTest
-[2026-10-07 06:31:36] Client disconnected
-[2026-10-07 06:34:19] Client connected
-[2026-10-07 06:34:30] Command: REGISTER mirshad
-[2026-10-07 06:34:33] Command: LIST
-[2026-10-07 06:34:39] Command: BCAST FinalTest
-[2026-10-07 06:34:43] Client disconnected
+[2026-10-08 01:00:37] Client connected
+[2026-10-08 01:00:45] Command: REGISTER mirshad
+[2026-10-08 01:01:07] Command: ROOM test
+[2026-10-08 01:01:20] Command: ROOM testroom
+[2026-10-08 01:01:31] Command: LIST
+[2026-10-08 02:53:26] Client connected
+[2026-10-08 02:53:29] Command: 
+[2026-10-08 02:53:42] Command: REGISTER mirshad
+[2026-10-08 02:53:54] Command: JOIN dev
+[2026-10-08 02:54:42] Client disconnected
+[2026-10-08 03:32:14] Client connected
+[2026-10-08 03:32:17] Client disconnected
+[2026-10-08 04:15:47] Client connected
+[2026-10-08 04:15:53] Command: REGISTER mirshad
+[2026-10-08 04:17:46] Client connected
+[2026-10-08 04:18:01] Command: REGISTER testuser
+[2026-10-08 04:18:12] Command: LIST
+[2026-10-08 04:18:28] Command: BCAST Hello everyone
+[2026-10-08 04:18:50] Command: PMSG TestUser Hello TestUser
+[2026-10-08 04:19:06] Command: PMSG TestUser Hello TestUser
+[2026-10-08 04:19:17] Command: BCAST Hello everyone
+[2026-10-08 04:20:58] Command: PMSG TestUser Hello TestUser
+[2026-10-08 04:21:04] Command: ROOMS
+[2026-10-08 04:21:18] Command: JOIN testroom
+[2026-10-08 04:21:23] Command: ROOMS
+[2026-10-08 04:21:37] Command: RMSG testroom Hello room
+[2026-10-08 04:21:51] Command: RMSG testroom Hello room
+[2026-10-08 04:22:08] Command: LEAVE testroom
+[2026-10-08 07:24:04] Client connected
+[2026-10-08 07:24:45] Command: REGISTER mirshad
+[2026-10-08 07:25:23] Command: LIST
+[2026-10-08 07:25:36] Command: BCAST Hello
+[2026-10-08 07:27:15] Client disconnected
+[2026-10-08 07:48:39] Client connected
+[2026-10-08 07:48:46] Command: REGISTER mirshad
+[2026-10-08 07:48:56] Command: LIST
+[2026-10-08 07:49:04] Command: BCAST Hello
+[2026-10-08 07:49:43] Client connected
+[2026-10-08 07:49:50] Command: REGISTER ayesh
+[2026-10-08 07:50:26] Command: SENDFILE ayesh test.txt 19
+[2026-10-08 07:50:26] File received and forwarded: test.txt (19 bytes)
+[2026-10-08 07:52:47] Command: LIST
+[2026-10-08 07:52:51] Command: ROOM
+[2026-10-08 07:53:49] Command: PMSG ayesh Hello
+[2026-10-08 07:54:02] Command: ROOM LIST
+[2026-10-08 07:55:11] Command: LIST
+[2026-10-08 07:58:29] Command: BCST hello everyone
+[2026-10-08 07:58:59] Command: PMSG ayesh Hello
+[2026-10-08 07:59:05] Command: PMSG ayesh Hello
+[2026-10-08 07:59:48] Command: BCAST hello evryone
+[2026-10-08 08:00:05] Command: JOIN network
+[2026-10-08 08:00:16] Command: LEAVE network
+[2026-10-08 08:00:27] Client disconnected
+[2026-10-08 08:00:30] Client disconnected
+[2026-10-08 11:25:37] Client connected
+[2026-10-08 11:25:47] Command: REGISTER mirshad
+[2026-10-08 11:25:51] Command: LIST
+[2026-10-08 11:27:13] Client connected
+[2026-10-08 11:27:24] Command: BCAST Hello
+[2026-10-08 11:27:56] Command: REGISTER ayesh
+[2026-10-08 11:28:08] Command: PMSG ayesh Hello
+[2026-10-08 11:28:16] Command: JOIN network
+[2026-10-08 11:28:24] Command: LEAVE network
+[2026-10-08 11:32:21] Command: PMSG ayesh Hello
+[2026-10-08 11:32:50] Command: BCAST ayesh hello
+[2026-10-08 11:33:17] Command: BCAST hello
+[2026-10-08 11:36:17] Command: quit
+[2026-10-08 11:36:22] Command: QUIT
+[2026-10-08 11:36:29] Command: QUITE
+[2026-10-08 11:38:35] Client disconnected

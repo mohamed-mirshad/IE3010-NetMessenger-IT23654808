@@ -48,7 +48,7 @@ void *receive_messages(void *arg)
 
             char header[1024];
 
-            if (header_length >= sizeof(header))
+            if ((size_t)header_length >= sizeof(header))
             {
                 printf("Server: Invalid header\n");
 
@@ -338,9 +338,9 @@ if (send(client_fd,
                 long remaining = file_size - total_sent;
 
                 int to_read =
-                    remaining < sizeof(file_buffer)
+                    remaining < (long)sizeof(file_buffer)
                     ? (int)remaining
-                    : sizeof(file_buffer);
+                    : (int)sizeof(file_buffer);
 
                 int bytes_read =
                     fread(file_buffer,
